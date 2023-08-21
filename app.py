@@ -4,7 +4,7 @@ import request_validator
 
 app = Flask(__name__)
 api = Api(app)
-#
+
 ping_validator = request_validator.get_ping_body_validator(api=api)
 
 @api.route("/ping")
