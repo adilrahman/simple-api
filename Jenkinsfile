@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('Build docker image') {
+      steps {
+        sh 'docker build . -t bitbyte007/simple_api:latest'
+      }
+    }
+
   }
 }
