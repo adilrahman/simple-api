@@ -16,7 +16,7 @@ class ping(Resource):
 
         res = {
             "response" : {
-                "data" : data
+                "data-1" : data
             }
         }
 
